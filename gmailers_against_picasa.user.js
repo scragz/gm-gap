@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name           Gmailers Against Picasa
-// @namespace      http://scragz.com/
 // @description    Puts back the reader link. Optional link to Flickr for Photos link.
+// @version        1.0
+// @author         scragz
+// @namespace      http://scragz.com/
 // @include        http://mail.google.com/mail/*
 // ==/UserScript==
 

@@ -10,7 +10,7 @@
 (function() {
 SHOW_FLICKR_LINK = true;
 /* begin scragz' GM utility functions */
-DEBUG = false;
+DEBUG = true;
 var _gt = function(e) { return document.getElementsByTagName(e); };
 var _gi = function(e) { return document.getElementById(e); };
 var _ce = function(e) { return document.createElement(e); };
@@ -69,9 +69,11 @@ if (DEBUG == false) {
 }
 /* end scragz' GM utility functions */
 
+GM_log('GAP loading...');
 var restart_count = 0;
 var go_ahead = function()
 {
+    GM_log('GO AHEAD');
     var nav, photos_link, reader_link;
     if (nav = _gi('gbar')) {
         GM_log(nav);

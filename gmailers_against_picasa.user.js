@@ -5,6 +5,7 @@
 // @author         scragz
 // @namespace      http://scragz.com/
 // @include        http://mail.google.com/mail/*
+// @include        https://mail.google.com/mail/*
 // ==/UserScript==
 
 (function() {

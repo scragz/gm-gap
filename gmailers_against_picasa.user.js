@@ -11,7 +11,7 @@
 (function() {
 SHOW_FLICKR_LINK = true;
 /* begin scragz' GM utility functions */
-DEBUG = true;
+DEBUG = false;
 var _gt = function(e) { return document.getElementsByTagName(e); };
 var _gi = function(e) { return document.getElementById(e); };
 var _ce = function(e) { return document.createElement(e); };
